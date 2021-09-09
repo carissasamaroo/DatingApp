@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\users\\Carissa\\documents\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\Carissa\\Documents\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\users\\Carissa\\documents\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\Carissa\\Documents\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\users\\Carissa\\documents\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Carissa\\Documents\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\users\\Carissa\\documents\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Carissa\\Documents\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Carissa\\.nuget\\packages\\",
-        "outputPath": "C:\\users\\Carissa\\documents\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\Carissa\\Documents\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -47,6 +47,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -54,6 +58,12 @@
               "version": "[5.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.9, )"
             },
