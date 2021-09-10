@@ -55,3 +55,10 @@ C:\users\Carissa\documents\DatingApp\API\bin\Debug\net5.0\runtimes\win-x64\nativ
 C:\users\Carissa\documents\DatingApp\API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\users\Carissa\documents\DatingApp\API\bin\Debug\net5.0\Humanizer.dll
 C:\users\Carissa\documents\DatingApp\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Carissa\Documents\DatingApp\api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Carissa\Documents\DatingApp\api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Carissa\Documents\DatingApp\api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Carissa\Documents\DatingApp\api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Carissa\Documents\DatingApp\api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Carissa\Documents\DatingApp\api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Carissa\Documents\DatingApp\api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
