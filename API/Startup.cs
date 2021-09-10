@@ -34,7 +34,22 @@ namespace API
             {
                 options.UseSqlite(_config.GetConnectionString("DefaultConnection"));
             });
+
+            //https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-5.0
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.WithOrigins("https://localhost:4200",
+                                            "http://localhost:4200")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+            });
+
             services.AddControllers();
+            //services.AddCors();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
@@ -54,6 +69,12 @@ namespace API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            /*app.UseCors(x => x.AllowAnyHeader()
+            .AllowAnyMethod()
+            .WithOrigins("http://localhost:4200"));*/
+
+            app.UseCors();
 
             app.UseAuthorization();
 
