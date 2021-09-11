@@ -82,11 +82,8 @@ namespace API
             .WithOrigins("http://localhost:4200"));*/
 
             app.UseCors();
-<<<<<<< HEAD
             
             app.UseAuthentication();
-=======
->>>>>>> 22b81843fc9b371cc43e4275392a358920ff1520
 
             app.UseAuthorization();
 
