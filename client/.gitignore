@@ -1,7 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+<<<<<<< HEAD
 ssl
 
+=======
+>>>>>>> 22b81843fc9b371cc43e4275392a358920ff1520
 # compiled output
 /dist
 /tmp
